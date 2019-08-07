@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnfood"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="145dp"
+            android:layout_marginBottom="241dp"
+            android:text="ประวัติส่วนตัว" />
+
+        <Button
+            android:id="@+id/btnedit"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="357dp"
+            android:text="ตารางเรียน" />
+
+        <Button
+            android:id="@+id/btnedit3"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="134dp"
+            android:layout_marginBottom="474dp"
+            android:text="เกรด" />
+
+        <Button
+            android:id="@+id/btnedit2"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="121dp"
+            android:text="กล่องข้องความ" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
